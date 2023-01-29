@@ -8,7 +8,7 @@ print(art.logo)
 searched_city = input("Please input city name: ")
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
-API_KEY = '85f08df0eb7f9b2f9f32717567d0b1dc'
+API_KEY = '
 CITY = searched_city
 url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
 response = requests.get(url).json()
